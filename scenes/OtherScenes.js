@@ -392,7 +392,7 @@ export class SettingsScene extends Phaser.Scene {
     siteHit.on("pointerout",  () => redrawSite(0x1E2E27));
     siteHit.on("pointerdown", () => {
       this.sound.play("menu", { volume: gameVolume });
-      window.open("https://moi14212869.github.io/onelevel/", "_blank");
+      window.open("https://onelevel-studio.github.io/", "_blank");
     });
 
     this._tabContainer.add([sectionLabel, creditsBg, creditsLabel, creditsHit, siteBg, siteLabel, siteHit]);
